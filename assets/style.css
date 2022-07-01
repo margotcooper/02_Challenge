@@ -25,6 +25,7 @@ nav {
   background-color: #10284c;
   z-index: 9999;
 }
+/* change visted link color */
 a:visited {
   color: whitesmoke;
 }
@@ -47,6 +48,7 @@ li a {
   padding-right: 10px;
   padding-left: 10px;
 }
+/* create gallery class */
 .gallery {
   display: flex;
   flex-direction: row;
@@ -60,9 +62,11 @@ li a {
   margin-right: -10px;
   margin-left: -10px;
 }
+/* target header in the gallery class */
 .gallery header {
   padding: 1em;
 }
+/* target the images in the gallery class */
 .gallery img {
   margin: 1em;
   box-shadow: 10px 10px 10px #87847d;
@@ -87,7 +91,7 @@ li a {
   margin-left: -10px;
 }
 /* color scheme colors: #2F5B88, #10284C, #060B2B, #060814, #0C1B1E, #87847D */
-
+/* make media queries */
 @media screen and (max-width: 992px) {
   .gallery {
     width: 100%;
